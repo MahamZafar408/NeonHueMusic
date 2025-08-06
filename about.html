@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>About - NeonHueMusic</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #1c1c3c;
+      color: white;
+      font-family: 'Ubuntu', sans-serif;
+    }
+
+    nav {
+      background-color: black;
+      color: white;
+      height: 65px;
+      display: flex;
+      align-items: center;
+      padding: 0 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.4rem;
+    }
+
+    .brand img {
+      width: 50px;
+      margin-right: 10px;
+    }
+   .custom-bg-image {
+       position: absolute;
+       top: 100px; 
+       left: 50%;
+       transform: translateX(-50%);
+       width: 1400px; 
+       height: 900px;
+       background-image: url('BG.jpeg'); 
+       background-size: cover;
+       background-position: center;
+       z-index: 0;
+       border-radius: 20px;
+    }
+
+
+    .about-box {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      background-color: #483d8b;
+      padding: 30px;
+      border-radius: 10px;
+      margin: 80px auto; 
+      box-shadow: 0 0 20px rgba(0, 255, 204, 0.3);
+      opacity: 0.8;
+    }
+
+    .about-box h1 {
+      color: #00ffcc;
+      margin-bottom: 15px;
+    }
+
+    .about-box h2 {
+      color: #00ffcc;
+      margin-top: 25px;
+      margin-bottom: 10px;
+    }
+
+    .about-box p {
+      line-height: 1.6;
+      font-size: 1.1rem;
+      margin-bottom: 15px;
+    }
+
+    .social-links {
+      margin-top: 10px;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin-right: 20px;
+      color: #00ffcc;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    .social-links a i {
+      margin-right: 8px;
+    }
+
+    .social-links a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="brand">
+      <img src="Logo.png" alt="NeonHueMusic">
+      NeonHueMusic
+    </div>
+  </nav>
+  <div class="custom-bg-image"></div>
+  <div class="about-box">
+    <h1>About NeonHueMusic</h1>
+    <p><strong>NeonHueMusic</strong> is a dynamic, web-based music player inspired by Spotify, developed using HTML, CSS, and JavaScript. It provides users with an engaging and interactive music streaming experience, complete with a sleek UI, play/pause functionality, song lists, and real-time progress tracking.</p>
+    
+    <p>This project was created as a part of my learning journey in web development. I aimed to combine functionality with aesthetic design, resulting in a responsive and immersive platform for music lovers. Every feature was designed with user experience in mind, including the animated playback interface, album art display, and playlist interactions.</p>
+    
+    <p>The project also showcases my front-end development skills, especially in DOM manipulation, responsive design, and event-driven programming. I continue to improve it by adding features such as dynamic song loading, volume control, and playlist management.</p>
+    
+    <h2>About the Developer</h2>
+    <p>Hi! I'm <strong>Maham Zafar</strong>, a BS Computer Science student passionate about coding, design, and building real-world tech projects. I enjoy exploring web technologies and creating applications that are both functional and visually appealing. NeonHueMusic reflects my interest in music and user interface development.</p>
+    
+    <p>I’m continuously learning and open to feedback. Feel free to explore my work and connect with me below:</p>
+    
+    <div class="social-links">
+      <a href="https://github.com/MahamZafar408" target="_blank">
+        <i class="fab fa-github"></i>GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/maham-zafar-16a40629b/" target="_blank">
+        <i class="fab fa-linkedin"></i>LinkedIn
+      </a>
+    </div>
+  </div>
+
+</body>
+</html>

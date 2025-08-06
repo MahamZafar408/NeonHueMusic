@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeonHueMusic - Your favourite music is here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Logo.png" alt="NeonHueMusic">NeonHueMusic</li>
+            <li class="about">About</li>
+        </ul>
+    </nav>
+    <div class="container">
+        
+        <div class="songList">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songItemContainer">
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">Lover</span>
+                    <span class="songlistplayer"><span class="timestamp">03:58 <i id="0" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">Beautiful Ghosts</span>
+                    <span class="songlistplayer"><span class="timestamp">04:18 <i id="1" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">Bejeweled</span>
+                    <span class="songlistplayer"><span class="timestamp">05:53 <i id="2" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">Blank Space</span>
+                    <span class="songlistplayer"><span class="timestamp">03:57 <i id="3" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">Enchanted</span>
+                    <span class="songlistplayer"><span class="timestamp">05:52 <i id="4" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">I Can Do It With A Broken Heart</span>
+                    <span class="songlistplayer"><span class="timestamp">03:42 <i id="5" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">Karma</span>
+                    <span class="songlistplayer"><span class="timestamp">03:29 <i id="6" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">Lavender Haze</span>
+                    <span class="songlistplayer"><span class="timestamp">03:26 <i id="7" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">Shake It Off</span>
+                    <span class="songlistplayer"><span class="timestamp">04:01 <i id="8" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+                <div class="songItem"> 
+                    <img src="cover.jpg" alt="1" >
+                    <span class="songName">You Belong With Me</span>
+                    <span class="songlistplayer"><span class="timestamp">03:48 <i id="9" class="fa-solid songItemPlay fa-play-circle" ></i></span> </span>
+                </div>
+            </div>
+        </div>
+        <div class="songDetails">
+           <img id="currentSongCover" src="" alt="Song Cover" />
+           <h2 id="currentSongName">Song Name</h2>
+           <p id="currentSongDetails">Details about the song will appear here.</p>
+           <p id="currentSongArtist">Artist: </p>
+           <p id="currentSongReleaseDate">Release Date: </p>
+           <p id="currentSongGenre">Genre: </p>
+           <p id="currentSongCredits">Credits: </p>
+        </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons -->
+             <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+             <i class="fa-solid fa-3x fa-play-circle" id="masterPlay" ></i>
+             <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
+        </div>
+        <div class="songInfo">
+            <img src="GIF.gif" width="42px" alt="" id="gif"><span id="masterSongName">Lover</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/84125d4234.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
