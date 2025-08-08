@@ -1,6 +1,6 @@
 console.log("Welcome to NeonHueMusic");
 let songIndex=0;
-let audioElement=new Audio('1.mp3');
+let audioElement=new Audio('music/1.mp3');
 let masterPlay=document.getElementById('masterPlay');
 let myProgressBar=document.getElementById('myProgressBar');
 let gif=document.getElementById('gif');
@@ -275,5 +275,6 @@ document.getElementById('previous').addEventListener('click',()=>{
     gif.style.opacity=1;
     masterPlay.classList.remove('fa-play-circle');
     masterPlay.classList.add('fa-pause-circle');
+
 
 })
